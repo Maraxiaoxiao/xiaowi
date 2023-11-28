@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="home.html"><img src="love logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Index</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MYSELF</a></li>
+                <li><a href="">FUTURE</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Padayon Future CPA!</h1>
+</section>
+
+<!------- future ------->
+
+<section class="future">
+    <div class="r">
+        <div class="future-left">
+            <img src="cpa.jpg">
+            <h2>CPA Gracelyn A. Tumbaga</h2>
+            <p>I graduated from a public school. From elementary to Senior HighSchool. As a student and an only daughter, my parents had high expectations of me but they didn't pressure me to go up in class because they knew what I could do without pressure.  I didn't fail them, I ended up with honor. Even it's not high, it is enough to be proud of.</p>
+            <br>
+            <p>At first I had many dreams that I wanted to achieve. I want to be a Teacher, Flight attendant, Chef and Accountant. In the end, the ACCOUNTANT prevailed in my heart and mind. It's not easy to dream because every dream, you have to achieve in order to succeed in life. And I believe that our success is in our hands.</p>
+            <br>
+            <p>I'm not even good at calculating details or transactions but here's my confidence in myself that I can achieve a CPA or Certified Public Accountant one day. No one will believe me or trust me, but I, myself, will take the strength to achieve my success no matter how many obstacles or challenges I face. They say that the person who gives up will not win. So I'm not going to give up on this fight.</p>
+            <br>
+            <p>PADAYON FUTURE CERTIFIED PUBLIC ACCOUNTANT!</p>
+        </div>
+        <div class="future-right">
+            <h3>ACHIEVEMENTS</h3>
+            <div>
+                <span>Fashion</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>School fair</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>School Awards</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Officers</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Other Contest</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Teaching</span>
+                <span>5</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!------- footer ------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Thankyou for Reading My First Website. I hope I'll Make you Happy.</p>
+
+    <div class="social-links">
+        <a href="">FACEBOOK</a>
+        <a href="">INSTAGRAM</a>
+        <a href="">TIKTOK</a>
+    </div>
+    <p>Made with LOVE by Gracelyn A. Tumbaga</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

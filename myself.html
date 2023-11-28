@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="home.html"><img src="love logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Index</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MYSELF</a></li>
+                <li><a href="">FUTURE</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>MySelf</h1>
+</section>
+
+<!------- myself ------->
+
+<section class="about">
+    <h1>Welcome to Gracelyn's Property</h1>
+    <p>Hello! Good day. This is is Gracelyn Aljecera Tumbaga,19 years of existence and freshly beautiful with a heart.</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>Who Am I</h3>
+            <p>Again, I am Gracelyn A. Tumbaga. You can call 'Grace' or 'Duday'. Anyhing you want but not the one who ruined my mood and my confidence. I am kind for those people who's kind to me. I am undestandable because I know the feeling ng hindi iniintindi. I can Give you lots of love even you're an evil to me.</p>
+        </div>
+        <div class="about-col">
+            <h3>What's More About Me</h3>
+            <p>I'm not a talented person but I can cook you some Dish. A Dish that after you eat you'll forgot that you're a human haha kidding aside. But, My favorite thing to do is to cook. Even I'm not a pro chef, I can still make you something to eat. I am also Hardworking, no matter how tired I am As long as i can, I'm no longer stop.</p>
+        </div>
+        <div class="about-col">
+            <h3>What's My Qoute</h3>
+            <p>No Matter How Tired You Are, As Long As You Can, Don't Stop!</p>
+        </div>
+    </div>
+
+
+</section>
+
+<!------- family ------->
+
+<section class="family">
+    <h1>My Family</h1>
+    <p>This are my Family. We are 6 in the Family. My Father, My Mother, Me and My 3 Brothers. Here you can see that my 1 brother and<br>my mother is an ANGEL because they are in God's Hand. That's why we are only 4 in the family. Since, last 4 years. My Family still Strong and Loving.</p>
+
+    <div class="row">
+        <div class="family-col">
+            <img src="fam.jpg">
+            <div class="layer">
+                <h3>MY BOYS</h3>
+            </div>
+        </div>
+        <div class="family-col">
+            <img src="fam2.jpg">
+            <div class="layer">
+                <h3>MY ANGELS</h3>
+            </div>
+        </div>
+        <div class="family-col">
+            <img src="fam3.jpg">
+            <div class="layer">
+                <h3>MA PA</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!------- footer ------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Thankyou for Reading My First Website. I hope I'll Make you Happy.</p>
+
+    <div class="social-links">
+        <a href="">FACEBOOK</a>
+        <a href="">INSTAGRAM</a>
+        <a href="">TIKTOK</a>
+    </div>
+    <p>Made with LOVE by Gracelyn A. Tumbaga</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>

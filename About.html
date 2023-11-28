@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+     <nav>
+        <a href="home.html"><img src="love logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">Index</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">MYSELF</a></li>
+                <li><a href="">FUTURE</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About ME</h1>
+</section>
+
+<!------- about us content ------->
+
+<section class="about-me">
+    <div class="row">
+        <div class="about-col">
+            <h1>HELLO KA-GRACIA'S!</h1>
+            <P>Ako si Gracelyn A. TUmbaga. Labing siyam na taong gulag at nagiisang anak na babae sa Pamilya. Masaya ngunit minsan malungkot dahil wala kang ka tandem ngunit kapag si Gracelyn ay magisa wala ka ng magagawa kundi ang hayaan sya.</P>
+            <p>My fat is not called shame because it is an asset to be better known and liked by others. I'm not rude but I'm not nice either, my behavior depends on the person I meet.</p>
+            <p>I am the type of woman who is neither beautiful nor sexy but I can say and I am proud to say that I am beautiful and no one can lower my confidence to share that I am beautiful.</p>
+            <p>My curves are not a flaw, they are a part of me</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="fat.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!------- footer ------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>Thankyou for Reading My First Website. I hope I'll Make you Happy.</p>
+
+    <div class="social-links">
+        <a href="">FACEBOOK</a>
+        <a href="">INSTAGRAM</a>
+        <a href="">TIKTOK</a>
+    </div>
+    <p>Made with LOVE by Gracelyn A. Tumbaga</p>
+</section>
+
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+</script>
+
+</body>
+</html>
